@@ -1,0 +1,51 @@
+#-------------------------
+# Rahasia — JANGAN pernah di-commit
+#-------------------------
+config.php
+*.backup-claude
+*.bak
+*.old
+
+#-------------------------
+# Dependency Composer
+#-------------------------
+# Pulihkan dengan: composer install
+vendor/
+
+# Salinan manual PhpSpreadsheet yang tidak dipakai kode mana pun
+Admin/excel/
+
+#-------------------------
+# Berkas unggahan pengguna
+#-------------------------
+uploads/*
+!uploads/opsi/
+uploads/opsi/*
+!uploads/opsi/.gitkeep
+!uploads/soal/
+uploads/soal/*
+!uploads/soal/.gitkeep
+
+#-------------------------
+# Log & berkas sementara
+#-------------------------
+*.log
+php_errors.log
+
+#-------------------------
+# Berkas sistem operasi
+#-------------------------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+._*
+
+#-------------------------
+# Editor
+#-------------------------
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
